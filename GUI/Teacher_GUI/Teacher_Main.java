@@ -8,7 +8,7 @@ import java.util.Map;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Main {
+public class Teacher_Main {
     public static void main(String[] args) {
         // Create a JFrame
         JFrame frame = new JFrame("Welcome Screen");

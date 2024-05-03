@@ -12,6 +12,7 @@ public class QuizOverview extends JFrame {
     private int currentQuestionIndex;
 
     public QuizOverview() {
+        
         setTitle("Quiz Overview");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -28,6 +29,8 @@ public class QuizOverview extends JFrame {
         Dimension panelSize = panel.getPreferredSize(); // Get the size of the panel
         titleLabel.setPreferredSize(new Dimension(panelSize.width, 40)); // Set preferred size for titleLabel to match the width of the panel
         panel.add(titleLabel);
+        
+        
 
         // Add space between titleLabel and input fields
         panel.add(Box.createVerticalStrut(60));
@@ -40,6 +43,7 @@ public class QuizOverview extends JFrame {
         questionField.setAlignmentX(Component.CENTER_ALIGNMENT);
         questionField.setMaximumSize(new Dimension(500, 50));
         panel.add(questionField);
+        
 
         // Add space between components
         panel.add(Box.createVerticalStrut(10));
